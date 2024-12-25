@@ -1,0 +1,541 @@
+body {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+
+  margin: 0;
+}
+.nav-bar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+div.nav {
+  background-color: #d2d0cc;
+  width: 100%;
+  height: 56px;
+  display: flex;
+}
+.nav a.logo {
+  background-image: url(w3schools-removebg-preview.png);
+  margin-left: -9px;
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav select.selection {
+  background-color: transparent;
+  height: 56px;
+  margin: 0 10px;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  font-size: 15px;
+  border: none;
+}
+.nav select.selection:hover {
+  background-color: rgb(60, 122, 99);
+  color: white;
+}
+.nav input[type="text"] {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 250px;
+  padding: 5px 40px 5px 15px;
+  border-radius: 25px;
+  width: 130px;
+  height: 28px;
+  border: none;
+  font-style: italic;
+  font-size: 20px;
+}
+.material-symbols-outlined {
+  color: rgb(136, 88, 223);
+  margin-top: -5px;
+}
+.offers {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  font-size: 16px;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+.offers:hover {
+  background-color: #a49f98;
+  border-radius: 25px;
+}
+.offers .offers-title {
+  margin-left: 5px;
+}
+div.black-nav {
+  width: 100%;
+  color: rgb(210, 208, 204);
+  background-color: rgb(57, 62, 64);
+  letter-spacing: 2px;
+  font-size: 14px;
+  height: 32.5px;
+}
+div.black-nav div {
+  display: inline-block;
+  margin: 9px;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+}
+div.black-nav div:hover {
+  background-color: black;
+}
+div.first-block {
+  width: 100%;
+  height: 600px;
+  background-image: url(background_in_space.webp);
+  position: relative;
+}
+div.first-block div.hero {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  color: rgb(220, 218, 215);
+  margin-bottom: 30px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+div.first-block div.yellow-text {
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  color: rgb(242, 228, 124);
+  position: absolute;
+  top: 300px;
+  left: 500px;
+}
+div.first-block form {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  width: 1000px;
+  display: inline-block;
+}
+
+div.first-block form input {
+  width: 350px;
+  height: 40px;
+  padding-left: 2%;
+  background-color: rgb(220, 218, 215);
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  color: #dcdad7;
+  font-size: 17px;
+  border: none;
+  vertical-align: middle;
+}
+
+div.first-block form button {
+  height: 41px;
+  width: 70px;
+  background-color: #017d50;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0;
+  margin-left: -4px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+}
+
+div.first-block form button:hover {
+  background-color: rgb(60, 122, 99);
+}
+
+div.first-block form button span.material-symbols-outlined {
+  color: rgb(220, 218, 215);
+  font-size: 20px;
+  line-height: 40px;
+}
+
+div.first-block a {
+  text-decoration: underline;
+  color: #dcdad7;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
+div.first-block a:hover {
+  color: rgb(242, 228, 124);
+}
+div.first-block div.astrounut {
+  background-image: url(lynx_in_space.webp);
+  height: 180px;
+  width: 180px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 250px;
+  left: 1250px;
+}
+.HTML {
+  background-color: rgb(145, 249, 184);
+  color: rgb(24, 26, 27);
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.main-title {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+.info {
+  font-size: 19px;
+  font-family: "Source Sans Pro Topnav", sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 280px;
+}
+.BTN-One {
+  color: rgb(220, 218, 215);
+  font-size: 18px;
+  background-color: rgb(59, 111, 92);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 250px;
+  left: 330px;
+}
+.BTN-One:hover {
+  background-color: rgb(46, 97, 78);
+}
+.BTN-Two {
+  color: rgb(24, 26, 27);
+  font-size: 18px;
+  background-color: rgb(234, 219, 106);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 310px;
+  left: 330px;
+}
+.BTN-Two:hover {
+  background-color: rgb(190, 177, 80);
+}
+.BTN-Three {
+  color: rgb(220, 218, 215);
+  font-size: 18px;
+  background-color: rgb(33, 35, 37);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 370px;
+  left: 330px;
+}
+.BTN-Three:hover {
+  background-color: black;
+}
+.BTN-Four {
+  color: rgb(24, 26, 27);
+  font-size: 18px;
+  background-color: rgb(247, 140, 152);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 430px;
+  left: 330px;
+}
+.BTN-Four:hover {
+  background-color: rgb(214, 121, 132);
+}
+.code {
+  background-color: rgb(205, 202, 197);
+  color: rgb(24, 26, 27);
+
+  width: 450px;
+  height: 430px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  left: 800px;
+  top: 60px;
+}
+.code .header {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.HTML .code .snippet {
+  background-image: url(Annotation\ 2024-12-24\ 160344.png);
+  width: 90%;
+  height: 300px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.code .try {
+  color: rgb(220, 218, 215);
+  font-size: 18px;
+  background-color: rgb(59, 111, 92);
+  border-radius: 25px;
+  border: none;
+  margin-left: 5%;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+}
+.code .try:hover {
+  background-color: rgb(46, 97, 78);
+}
+.CSS {
+  background-color: rgb(242, 228, 124);
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.CSS .BTN-Two,
+.Python .BTN-Two,
+.SQL .BTN-Two {
+  color: rgb(220, 218, 215);
+  font-size: 18px;
+  background-color: rgb(33, 35, 37);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 310px;
+  left: 330px;
+}
+.CSS .BTN-Two:hover,
+.Python .BTN-Two:hover,
+.SQL .BTN-Two:hover {
+  background-color: black;
+}
+.CSS .BTN-Three,
+.Python .BTN-Three,
+.SQL .BTN-Three {
+  color: rgb(24, 26, 27);
+  font-size: 18px;
+  background-color: rgb(247, 140, 152);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 370px;
+  left: 330px;
+}
+.CSS .BTN-Three:hover,
+.Python .BTN-Three:hover,
+.SQL .BTN-Three:hover {
+  background-color: rgb(214, 121, 132);
+}
+.CSS .code .snippet {
+  background-image: url(CSSCode.png);
+  width: 90%;
+  height: 300px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.JS {
+  background-color: rgb(57, 62, 64);
+  color: #dcdad7;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.JS .main-title {
+  font-size: 70px;
+}
+.JS .BTN-Two {
+  color: black;
+  font-size: 18px;
+  background-color: rgb(220, 218, 215);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 310px;
+  left: 330px;
+}
+.JS .BTN-Two:hover {
+  background-color: rgb(182, 180, 177);
+}
+.JS .BTN-Three {
+  color: rgb(24, 26, 27);
+  font-size: 18px;
+  background-color: rgb(247, 140, 152);
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 370px;
+  left: 330px;
+}
+.JS .BTN-Three:hover {
+  background-color: rgb(214, 121, 132);
+}
+.JS .code{
+    height: 400px;
+}
+.JS .code .snippet {
+  background-image: url(JSCode.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+  height: 250px;
+  margin: 10px auto;
+  
+}
+.Python {
+  background-color: rgb(252, 179, 158);
+  color: rgb(24, 26, 27);
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.Python .code {
+  height: 350px;
+}
+.Python .code .snippet {
+  background-image: url(pythoncode.png);
+  width: 90%;
+  height: 200px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.SQL {
+  background-color: rgb(96, 228, 228);
+  color: rgb(24, 26, 27);
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.SQL .code {
+  height: 350px;
+}
+.SQL .code .snippet {
+  background-image: url(SQLCODE.png);
+  width: 90%;
+  height: 200px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer{
+    background-image: url(background_in_space.webp);
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.footer .lynx{
+    background-image: url(lynx_landing.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 570px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.footer .head-lines
+{
+    height: 60px;
+    width: 100%;
+    padding-left: 150px;
+    padding-top: 80px;
+   
+}
+.footer .head-lines .logo
+{
+    background-image: url(w3schools-removebg-preview.png) ;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100px;
+    vertical-align: middle;
+}
+.footer .head-lines a{
+    color: rgb(242, 228, 124);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 30px;
+}
+.footer .head-lines a:hover{
+    text-decoration: underline;
+}
+.footer-sections {
+    background: transparent;
+    text-align: center; /* Center align the whole section */
+    color: rgb(196, 193, 188);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer-column {
+    display: inline-block; /* Arrange columns side-by-side */
+    vertical-align: top; /* Align columns to the top */
+    width: 22%; /* Adjust column width */
+    margin: 0;
+    text-align: left;
+}
+.footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li {
+    font-size: 10px;
+    line-height: 1.5;
+}
+.footer-column ul li:hover{
+    color: rgb(242, 228, 124);
+}
+
+.footer .conclusion{
+    color: rgb(196, 193, 188);
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 40%;
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer .creator{
+    font-size: 12px;
+    color: rgb(242, 228, 124);
+    margin-top: 50px;
+    margin-left: 180px;
+}
